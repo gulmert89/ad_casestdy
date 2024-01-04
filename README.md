@@ -57,7 +57,7 @@ curl -X 'POST' \
   'http://52.208.57.153:8000/create_image?text_prompt=a%20cup%20of%20coffee&color_hex=670E94&inference_steps=10&inference_seed=42' \
   -H 'accept: application/json' \
   -H 'Content-Type: multipart/form-data' \
-  -F 'uploaded_img=@reference_img.jpg;type=image/jpeg' \
+  -F 'reference_img=@reference_img.jpg;type=image/jpeg' \
 --output "my_generated_img_1.png"
 ```
 
