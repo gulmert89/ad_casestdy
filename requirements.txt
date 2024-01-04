@@ -1,0 +1,9 @@
+fastapi[all]
+uvicorn[standard]
+accelerate
+torch
+torchvision
+pillow
+opencv-python
+transformers
+diffusers

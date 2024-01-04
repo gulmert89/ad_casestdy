@@ -1,0 +1,3 @@
+.DS_Store
+generated_imgs/*.png
+__pycache__
